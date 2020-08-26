@@ -18,7 +18,7 @@ app.get('/', (request, response) =>{
 })
 
 app.get('/qrcode', (request, response) =>{
-  response.sendFile(__dirname + '/templates/ar_example.html')
+  response.sendFile(__dirname + '/templates/ar_sicredi.html')
 } )
 
 var httpsServer = https.createServer(credentials, app);
